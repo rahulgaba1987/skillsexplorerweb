@@ -6,7 +6,7 @@ import PageNotFound from "./pages/PageNotFound";
 import CustomNavBar from "./pages/CustomNavBar";
 import Videos from "./pages/Videos";
 import AboutUs from "./pages/AboutUs";
-import AboutUs from "./pages/ContactUs";
+import ContactUs from "./pages/ContactUs";
 function App() {
   return (
     <>
