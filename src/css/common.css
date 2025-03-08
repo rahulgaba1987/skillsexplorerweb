@@ -18,7 +18,7 @@
     flex: 1; /* Allow the main section to grow and fill available space */
     padding: 20px;
     background-color: #eaeaea;
-    min-height: 100vh;;
+    height: 80vh;;
   }
   .videos{
 
@@ -36,4 +36,12 @@
   ul >li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+  }
+  .team{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .about{
+    margin:0px auto;
   }
