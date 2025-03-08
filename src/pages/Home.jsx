@@ -1,10 +1,20 @@
 import React from 'react'
-import CustomNavBar from './CustomNavBar'
+
+import Slider from '../comp/Slider'
+
 
 function Home() {
   return (
-
-        <CustomNavBar/>
+    <>
+     <Slider/>
+    <h1>Working on Home Page</h1>
+           
+            {/* <Base>
+             <h1>Working on Home Page</h1>
+             </Base> */}
+            
+    </>
+         
   )
 }
 

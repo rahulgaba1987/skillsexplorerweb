@@ -1,13 +1,12 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 
-export class AboutUs extends PureComponent {
-  render() {
-    return (
-      <div>
-            <h1>This is About Page</h1>
-      </div>
-    )
-  }
+function AboutUs() {
+  return (
+    <div>
+      <h1>This is About Us page</h1>
+    </div>
+  )
 }
 
 export default AboutUs
+
