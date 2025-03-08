@@ -3,3 +3,19 @@
     display: flex;
     justify-content: center;
 }
+.app {
+    min-height: 100vh;
+  }
+  .footer {
+    flex:display;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .main {
+    flex: 1; /* Allow the main section to grow and fill available space */
+    padding: 20px;
+    background-color: #eaeaea;
+    min-height: 100vh;;
+  }

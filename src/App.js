@@ -9,23 +9,26 @@ import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import CustomNavBar from "./pages/CustomNavBar";
 import Footer from "./comp/Footer";
+import "./css/common.css";
 function App() {
   return (
     <>
-      
-      <BrowserRouter>
+       <div className="app">
+      <BrowserRouter >
       <CustomNavBar/>
         <Routes>
-          <Route  path="/" element={<Home/>}/>
+          <Route   path="/" element={<Home/>}/>
           <Route  path="/courses" element={<Courses/>}/>
          
-          <Route  path="/videos" element={<Videos/>}/>
-          <Route  path="/about" element={<AboutUs/>}/>
-          <Route  path="/contact" element={<ContactUs/>}/>
-          <Route  path="*" element={<PageNotFound/>}/>
+          <Route   path="/videos" element={<Videos/>}/>
+          <Route   path="/about" element={<AboutUs/>}/>
+          <Route    path="/contact" element={<ContactUs/>}/>
+          <Route   path="*" element={<PageNotFound/>}/>
         </Routes>
-        <Footer/>
+       
       </BrowserRouter>
+      <Footer className="footer"/>
+      </div>
     </>
   );
 }
