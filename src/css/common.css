@@ -39,8 +39,9 @@
   }
   .team{
     margin-top: 40px;
-    display: flex;
-    justify-content: center;
+   position: relative;
+   float: right;
+    
   }
   .about{
     margin:0px auto;
