@@ -14,6 +14,11 @@ export class Videos extends PureComponent {
                 <h1>Java 8 Features</h1>
                 <iframe  src="https://www.youtube.com/embed/videoseries?si=lp1duT5yzdsNyC9l&amp;list=PLL9sLyyoOiI6irJbG1npEzWPbwbkCn0bW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;fullscreen" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
+
+            <div className='text-center'>
+                <h1>Java 8 Features</h1>
+                <iframe  src="https://www.youtube.com/embed/videoseries?si=lp1duT5yzdsNyC9l&amp;list=PLL9sLyyoOiI6irJbG1npEzWPbwbkCn0bW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;fullscreen" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
         
         </div>
         
