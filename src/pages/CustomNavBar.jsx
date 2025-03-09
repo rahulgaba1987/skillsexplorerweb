@@ -30,7 +30,7 @@ const CustomNavBar = () => {
           </Nav>
           <Nav>
             <Nav.Link as={NavLink} to="/about">About Us</Nav.Link>
-            <Nav.Link as={NavLink} to="/contact"> Contact Us</Nav.Link>
+            <Nav.Link as={NavLink} to="/contact">Sign UP</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
